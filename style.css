@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width: 768px){
+    header{
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navigation{
+        margin-top: 10px;
+    }
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(243, 88, 173);
+    opacity: 0.89;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 450;
+    font-size: 1.8em;
+}
+.logo:hover{
+    transform: scale(1.1);
+    color: purple;
+    transition: 0.2s;
+}
+.logo:active{
+    opacity: 0.5;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.navigation a:hover{
+    color: purple;
+    font-size: larger;
+    transition: 0.2s;
+}
+.navigation a:active{
+    opacity: 0.5;
+}
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/second.JPG) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.main h3{
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.major{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(245, 126, 193);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.main-button{
+    background-color: rgb(245, 126, 193);
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.main-button:hover{
+    background-color: rgb(243, 88, 173);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.main-button:active{
+    opacity: 0.4;
+}
+
+.social-icons a{
+    color: white;
+    font-size: 30px;
+    padding-right: 15px;
+}
+.social-icons a:active{
+    opacity: 0.5;
+}
+
+
+.cards{
+    width: 100%;
+    background-image: url(images/first.JPG);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(242, 68, 164);
+    font-size: 15px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    border-width: 2px;
+    padding: 20px 30px;
+    margin-right: 20px;
+    align-items: center;
+    overflow: auto;
+    box-shadow: 10px 10px rgb(0, 0, 0, 0.3);
+    
+}
+
+
+.title{
+    color: rgb(243, 88, 173);
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 1px 1px 1px white;
+    font-weight: 660;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+.icon a{
+    color: rgb(245, 126, 193);
+    font-size: 35px;
+}
+.icon{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.info{
+    color: white;
+    text-align: center;
+    height: 300px;
+    line-height: 25px;
+}
+
+.info h3{
+    padding-bottom: 10px;
+}
+
+.card:hover{
+    color: rgb(245, 126, 193);
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card:active{
+    opacity: 0.5;
+}
+
+.projects{
+    background-image: url(images/second.JPG);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.projects h3{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
